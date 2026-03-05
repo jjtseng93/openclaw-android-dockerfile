@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.3",
+    "lastTouchedAt": "2026-03-05T08:21:21.021Z"
+  },
+  "browser": {
+    "enabled": true,
+    "evaluateEnabled": true,
+    "noSandbox": true
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  }
+}
