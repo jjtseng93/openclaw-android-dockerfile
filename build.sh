@@ -15,7 +15,7 @@ if echo $PREFIX | grep -qi termux ; then
     exit 1
   fi
 
-  pkg update
+  pkg update && pkg upgrade
   pkg install nodejs udocker git
 
  fi
@@ -33,7 +33,7 @@ cp Dockerfile openclaw/
 cp -r patches openclaw/
 
 # 4. Start building process
-node js-udocker/udocker.js build -t clawdroid openclaw
+node js-udocker/udocker.js build -t clawdroid -y openclaw
 
 echo -e "\033[33mBuild complete!\033[0m"
 
