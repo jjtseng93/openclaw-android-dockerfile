@@ -23,13 +23,13 @@ WORKDIR /app
 RUN chown node:node /app
 
 
-# Use xarclock to test X11 function
+# Use xclock to test X11 function
 # In Termux start xserver by:
 # termux-x11 :0 -listen tcp -ac &
 ENV DISPLAY=127.0.0.1:0
 
 
-ARG OPENCLAW_DOCKER_APT_PACKAGES="chromium xarclock"
+ARG OPENCLAW_DOCKER_APT_PACKAGES="chromium x11-apps"
 RUN if [ -n "$OPENCLAW_DOCKER_APT_PACKAGES" ]; then \
       apt-get update && \
       DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends $OPENCLAW_DOCKER_APT_PACKAGES && \
