@@ -2,7 +2,7 @@
 
 if echo $PREFIX | grep -qi termux ; then
 
-  udocker run --volume=/system --volume=/apex --volume=/data --volume=/linkerconfig/ld.config.txt clawdroid bash
+  udocker run -v /system -v /apex -v /data -v /linkerconfig/ld.config.txt -v "$PREFIX/tmp:/dev/shm" clawdroid bash
 
 else
 
