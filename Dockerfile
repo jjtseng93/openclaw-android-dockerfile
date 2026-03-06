@@ -128,6 +128,7 @@ COPY patches/utilsBundle.js node_modules/playwright-core/lib/utilsBundle.js
 
 # Disables browser sandbox and enables eval
 COPY patches/openclaw.json /root/.openclaw/openclaw.json
+COPY patches/chromium.desktop /usr/share/applications/chromium.desktop
 
 
 ENV NODE_ENV=production
