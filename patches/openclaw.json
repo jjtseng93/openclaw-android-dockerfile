@@ -8,6 +8,15 @@
     "evaluateEnabled": true,
     "noSandbox": true
   },
+  "tools": {
+    "profile": "full",
+    "allow": ["*"],
+    "exec": {
+      "host": "gateway",
+      "security": "full",
+      "ask": "off"
+    }
+  },
   "commands": {
     "native": "auto",
     "nativeSkills": "auto",

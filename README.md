@@ -1,3 +1,6 @@
+# News
+- 2026/03/07 Important note: Newer version of OpenClaw defaults to not giving any permission to the AI by default.
+- I'm fixing this with a custom openclaw.json under patches/
 # Intro
 - A lightweight Dockerfile-compatible build workflow for running OpenClaw on Android using PRoot.
 - Keeps a minimal set of downstream patches in order to stay as close to upstream OpenClaw as possible.
