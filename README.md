@@ -1,12 +1,17 @@
 # News
 - 2026/03/07 Important note: Newer version of OpenClaw defaults to not giving any permission to the AI by default.
 - I'm fixing this with a custom openclaw.json under patches/
+
 # Intro
 - A lightweight Dockerfile-compatible build workflow for running OpenClaw on Android using PRoot.
 - Keeps a minimal set of downstream patches in order to stay as close to upstream OpenClaw as possible.
 - The patches are limited to build system adjustments and Docker tooling required for Android builds.
 
 # Usage
+- You can either use anci_setup_openclaw in my app:
+  * https://drive.google.com/file/d/1luk4pY5D7b6FHHhy57mTZ3NcEwFEUvlw/view?usp=drivesdk
+- or use it in Termux:
+
 ```shell
 git clone https://github.com/jjtseng93/openclaw-android-dockerfile.git
 cd openclaw-android-dockerfile
