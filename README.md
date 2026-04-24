@@ -9,7 +9,7 @@
 
 # Usage
 - You can either use anci_setup_openclaw in my app:
-  * https://drive.google.com/file/d/1luk4pY5D7b6FHHhy57mTZ3NcEwFEUvlw/view?usp=drivesdk
+  * https://drive.google.com/drive/folders/18iwbKrAZfA-HoTSP9I5MzGz5xVFMZ4bg
 - or use it in Termux:
 
 ```shell
